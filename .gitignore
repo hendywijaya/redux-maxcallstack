@@ -1,0 +1,18 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+# MAC
+#
+.DS_Store
+.next/
+.env
+
+# node.js
+#
+node_modules/
+npm-debug.log
+.gitmodules
+.idea
+.gitignore_global
+dist/
+
+pm2-*
+/.vscode/
